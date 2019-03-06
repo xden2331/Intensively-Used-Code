@@ -7,6 +7,8 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+// 假设该图没有圈
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         Set<TreeNode> visited = new HashSet<>();
